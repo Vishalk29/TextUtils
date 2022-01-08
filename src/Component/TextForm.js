@@ -5,22 +5,26 @@ export default function TextForm(props) {
         // console.log("you clicked the onchange")
         const newtext = text.toUpperCase();
         setText(newtext)
+        props.showAlert("Converted to UpperCase", "success")
     }
 
     const handlelOChange = () => {
         const newtext = text.toLowerCase();
         setText(newtext)
+        props.showAlert("Converted to Lowercase", "success")
     }
 
     const handlelOClear = () => {
         const newText = "";
         setText(newText)
+        props.showAlert("Clear the Text", "success")
     }
     // copy text code 
     const handleCopy = () => {
         let textcopy = document.getElementById("myBox")
         textcopy.select();
         navigator.clipboard.writeText(textcopy.value) // this is code use for copy the text
+        props.showAlert("Text is copied to clipboard", "success")
     }
     const handleChnage = (event) => {
         // console.log("You chnaged")
