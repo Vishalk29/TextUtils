@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+## TextUtils is a word counter and a character counting utility which is build by using the [reactjs , functional component , react-router-dom , useState , props, bootstrap]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1 : Home page in light mode 
+<img width="1680" alt="Screenshot 2022-01-09 at 3 58 42 PM" src="https://user-images.githubusercontent.com/88853198/148678515-f3024289-01d6-4895-93ad-a5df4ddc82ce.png">
 
-## Available Scripts
+ ## 2 : Home page in Dark mode 
+ <img width="1680" alt="Screenshot 2022-01-09 at 4 02 30 PM" src="https://user-images.githubusercontent.com/88853198/148678551-e6df99f4-2cd2-4595-b24c-66f25331827f.png">
 
-In the project directory, you can run:
+## 3 : Home page in Light mode and Dark mode for mobile
+ <img width="1680" alt="Screenshot 2022-01-09 at 4 06 25 PM" src="https://user-images.githubusercontent.com/88853198/148678664-f0c23281-24f1-4d68-a190-d24a78c9a1c9.png"> <img width="1680" alt="Screenshot 2022-01-09 at 4 06 34 PM" src="https://user-images.githubusercontent.com/88853198/148678665-47a7a081-fee4-4706-ae64-4db7863f7297.png">
 
-### `npm start`
+## 4 : when i enter the text in text area you can see the word count and character count and how much time you need to read text and preview
+<img width="1680" alt="Screenshot 2022-01-09 at 4 08 35 PM" src="https://user-images.githubusercontent.com/88853198/148678765-8e446fc0-745c-4ebb-9ef8-71c0d2b3eb49.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 5 : The below screenShot convert Text into uppercase and lowercase and copy the text 
+<img width="1680" alt="Screenshot 2022-01-09 at 4 11 55 PM" src="https://user-images.githubusercontent.com/88853198/148678879-d75692aa-2ab5-42d5-bf49-a8bdeb9eee48.png"> <img width="1680" alt="Screenshot 2022-01-09 at 4 12 05 PM" src="https://user-images.githubusercontent.com/88853198/148678880-f44f95e0-f643-4c21-b0dd-3546b35fd30f.png"> <img width="1680" alt="Screenshot 2022-01-09 at 4 14 28 PM" src="https://user-images.githubusercontent.com/88853198/148678922-592bce2b-6119-4061-a1fd-cbad7f8c80a4.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## THANK YOU FOR LOOKING INTO IT
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
