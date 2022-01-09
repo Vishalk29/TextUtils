@@ -6,7 +6,10 @@ import NavBar from './Component/NavBar';
 import TextForm from './Component/TextForm';
 
 function App() {
-  const [mode, setMode] = useState('light'); // whether the dark mode enable or not
+  // whether the dark mode enable or not
+  const [mode, setMode] = useState('light');
+  // whether the gray mode enable or not 
+
   const [alert, setAlert] = useState(null);
 
   const showAlert = (message, type) => {
@@ -18,6 +21,8 @@ function App() {
   setTimeout(() => {
     setAlert(null)
   }, 1500);
+
+
 
   const toggleMode = () => {
     if (mode === 'light') {

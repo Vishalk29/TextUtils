@@ -33,7 +33,7 @@ export default function TextForm(props) {
     const [text, setText] = useState("")
     return (
         <>
-            <div className="container" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
+            <div className="container" style={{ color: props.mode === 'dark' ? 'white' : 'black' }} >
                 <h1>{props.heading}</h1>
                 <div className="mb-3">
                     <textarea className="form-control" value={text} onChange={handleChnage} style={{ backgroundColor: props.mode === 'dark' ? 'gray' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} id="myBox" rows="8"></textarea>
