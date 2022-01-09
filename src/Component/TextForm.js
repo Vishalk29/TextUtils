@@ -24,6 +24,7 @@ export default function TextForm(props) {
         let textcopy = document.getElementById("myBox")
         textcopy.select();
         navigator.clipboard.writeText(textcopy.value) // this is code use for copy the text
+        document.getSelection().removeAllRanges();
         props.showAlert("Text is copied to clipboard", "success")
     }
     const handleChnage = (event) => {
@@ -38,10 +39,10 @@ export default function TextForm(props) {
                 <div className="mb-3">
                     <textarea className="form-control" value={text} onChange={handleChnage} style={{ backgroundColor: props.mode === 'dark' ? 'gray' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} id="myBox" rows="8"></textarea>
                 </div>
-                <button type="button" className="btn btn-primary mx-2" onClick={handleUpChange}>Convert to UpperCase</button>
-                <button type="button" className="btn btn-primary mx-2" onClick={handlelOChange}>Convert to LowerCase</button>
-                <button type="button" className="btn btn-primary mx-2" onClick={handlelOClear}>Clear Text</button>
-                <button type="button" className="btn btn-primary mx-2" onClick={handleCopy}>Copy Text</button>
+                <button type="button" disabled={text.length === 0} className="btn btn-primary mx-2 my-2" onClick={handleUpChange}>Convert to UpperCase</button>
+                <button type="button" disabled={text.length === 0} className="btn btn-primary mx-2 my-2" onClick={handlelOChange}>Convert to LowerCase</button>
+                <button type="button" disabled={text.length === 0} className="btn btn-primary mx-2 my-2" onClick={handlelOClear}>Clear Text</button>
+                <button type="button" disabled={text.length === 0} className="btn btn-primary mx-2 my-2" onClick={handleCopy}>Copy Text</button>
 
 
 
@@ -50,10 +51,10 @@ export default function TextForm(props) {
             <div className="container my-3" style={{ color: props.mode === 'dark' ? 'white' : 'black' }} >
 
                 <h2>Text summery Is : </h2>
-                <p>{text.split(" ").length} word and {text.length} character</p>
-                <p>{0.008 * text.split(" ").length} Minute Read</p>
+                <p>{text.split(" ").filter((element) => { return element.length !== 0 }).length} word and {text.length} character</p>
+                <p>{0.008 * text.split(" ").filter((element) => { return element.length !== 0 }).length} Minute Read</p>
                 <h3> Preview :</h3>
-                <p>{text.length > 0 ? text : "Enter the text to enter in priview "}</p>
+                <p>{text.length > 0 ? text : "Nothing to preview "}</p>
             </div>
 
         </>
