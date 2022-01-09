@@ -1,4 +1,4 @@
-## TextUtils is a word counter and a character counting utility which is build by using the [reactjs , functional component , react-router-dom , useState , props, bootstrap]
+## TextUtils App is a word counter and a character counting utility App which is build by using the [reactjs , functional component , react-router-dom , useState , props, bootstrap]
 
 ## 1 : Home page in light mode 
 <img width="1680" alt="Screenshot 2022-01-09 at 3 58 42 PM" src="https://user-images.githubusercontent.com/88853198/148678515-f3024289-01d6-4895-93ad-a5df4ddc82ce.png">
